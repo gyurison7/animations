@@ -57,8 +57,8 @@ const Button = styled(motion.button)`
 `;
 
 const boxVariants = {
-  box1: { scale: 1.2, transformOrigin: "right bottom" }, // 오른쪽 아래 고정, 즉 왼쪽 위 방향으로 커짐
-  box4: { scale: 1.2, transformOrigin: "left top" }, // 왼쪽 위 고정, 즉 오른쪽 아래 방향으로 커짐
+  box1: { scale: 1.15, x: -30, y: -20, transition: { type: "linear" } },
+  box4: { scale: 1.15, x: 30, y: 20, transition: { type: "linear" } }
 };
 
 const overlayVariants = {
